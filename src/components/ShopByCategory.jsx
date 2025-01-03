@@ -1,11 +1,11 @@
 import React from "react";
-import HomeImg6 from "../assets/images/HomeImg6.png";
-import HomeImg4 from "../assets/images/HomeImg4.png";
-import HomeImg5 from "../assets/images/HomeImg5.png";
-import HomeImg3 from "../assets/images/HomeImg3.png";
-import HomeImg2 from "../assets/images/HomeImg2.png";
-import HomeImg1 from "../assets/images/HomeImg1.png";
-import "../assets/css/HomePage.css";
+import HomeImg6 from "../assets/Images/HomeImg6.png";
+import HomeImg4 from "../assets/Images/HomeImg4.png";
+import HomeImg5 from "../assets/Images/HomeImg5.png";
+import HomeImg3 from "../assets/Images/HomeImg3.png";
+import HomeImg2 from "../assets/Images/HomeImg2.png";
+import HomeImg1 from "../assets/Images/HomeImg1.png";
+import "../assets/CSS/HomePage.css";
 import { useNavigate } from "react-router-dom";
 
 const ShopByCategory = () => {
