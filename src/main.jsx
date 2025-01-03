@@ -2,7 +2,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { myRoutes } from './App.jsx'
 import { RouterProvider } from 'react-router-dom'
-import favicon from './assets/images/favicon.jpg'; 
 
 // const setFavicon = (iconPath) => {
 //   const link = document.createElement('link'); // Create a link element
