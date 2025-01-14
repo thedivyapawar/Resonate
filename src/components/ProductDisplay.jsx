@@ -52,6 +52,8 @@ function ProductDisplay(){
           });
     }
 
+    const arr=[1,2,3,4,5,6,7,8,9,10]
+
     return(
 
         <>
@@ -62,9 +64,18 @@ function ProductDisplay(){
                 </div>
             </div>
 
-
-            <div className="row mb-5 mt-2">
+            
+            <div className="row mb-5 mt-2 placeholder-glow me-2 justify-content-around">
                 {
+                    data?.length == 0 ? arr.map((item,index)=>{
+                        return(
+                            
+                                <div key={index} style={{height:'300px'}} className='col-md-3 col-lg-2 placeholder rounded-2 my-3 mx-3 mx-md-4 mx-lg-5 px-3 '>
+        
+                                </div>
+                          
+                        )
+                    }):
                     data.map((item,index)=>{
                         return(
                             <div className="col-md-4 col-lg-3 my-3 px-3" key={index}>
